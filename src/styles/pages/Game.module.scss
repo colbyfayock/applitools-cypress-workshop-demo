@@ -1,0 +1,41 @@
+@import "@styles/settings/__settings";
+
+
+.gameContainer {
+  display: flex;
+  padding-top: 3em;
+}
+
+.gameImage {
+  width: 50%;
+  padding-right: 2em;
+}
+
+.gameDetails {
+  width: 50%;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.gameTitle {
+  margin: 0;
+}
+
+.gameDescription {
+  line-height: 1.4;
+}
+
+.gameBuy {
+  margin-top: 1.5em;
+}
+
+.gameBuyButton {
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+  background-color: $colorGreen;
+  border: none;
+  border-radius: .4em 0 .4em 0;
+  padding: .6em 1em;
+  cursor: pointer;
+}

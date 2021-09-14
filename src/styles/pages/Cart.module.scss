@@ -1,0 +1,37 @@
+@import "@styles/settings/__settings";
+
+.cartItems {
+  list-style: none;
+  padding: 0;
+}
+
+.cartItemsHeader {
+  font-weight: bold;
+  background-color: $colorOrange;
+}
+
+.cartItem {
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+  padding: 0 1em;
+}
+
+.cartCheckout {
+  text-align: right;
+}
+
+.cartCheckoutButton {
+  display: inline-block;
+  color: darken($colorOrange, 40);
+  font-weight: bold;
+  font-size: 1em;
+  background-color: $colorYellow;
+  padding: .8em 1.2em;
+  border: 0;
+  border-radius: .4em 0 .4em 0;
+  cursor: pointer;
+}
+
+.cartCheckoutNoItems {
+  text-align: left;
+}

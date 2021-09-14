@@ -1,0 +1,80 @@
+@import "@styles/settings/__settings";
+
+.grid {
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  list-style: none;
+  padding: 0;
+  margin-top: 3rem;
+}
+
+.card {
+  width: 100%;
+}
+
+.cardImage {
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: .5em 0 .5em 0;
+  box-shadow: 3px 3px $colorBlue;
+}
+
+.cardTitle {
+  font-size: 1em;
+  margin: .8em 0 0;
+}
+
+.cardPrice {
+  font-size: 1em;
+  margin: .4em 0 0;
+}
+
+
+
+
+
+
+.productContainer {
+  display: flex;
+  padding-top: 3em;
+}
+
+.productImage {
+  width: 50%;
+  padding-right: 2em;
+}
+
+.productDetails {
+  width: 50%;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.productTitle {
+  margin: 0;
+}
+
+.productDescription {
+  line-height: 1.4;
+}
+
+.productBuy {
+  margin-top: 1.5em;
+}
+
+.productBuyButton {
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+  background-color: $colorGreen;
+  border: none;
+  border-radius: .4em 0 .4em 0;
+  padding: .6em 1em;
+  cursor: pointer;
+}
