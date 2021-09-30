@@ -26,8 +26,6 @@ jobs:
 
       - run: yarn build
 
-      - run: yarn start
-
-      - run: yarn run cy:run
+      - run: yarn ci
         env: 
           APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
