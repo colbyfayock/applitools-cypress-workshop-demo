@@ -2,7 +2,7 @@
 
 context('Cart', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000');
+    cy.visit('https://applitools-cypress-workshop-demo.netlify.app/');
   })
 
   it('add an item to the cart and go to cart', () => {
