@@ -30,7 +30,7 @@ jobs:
           APPLITOOLS_BATCH_ID: ${{ github.sha }}
 
   batch-completion-notification:
-    needs: run-tests
+    needs: test
     if: always()
     runs-on: ubuntu-latest
     steps:
