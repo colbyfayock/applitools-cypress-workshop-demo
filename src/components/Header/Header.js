@@ -69,16 +69,6 @@ const Header = () => {
                 Playstation 5
               </a>
             </li>
-            <li>
-              <a href="#">
-                Nintendo Switch
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                PC
-              </a>
-            </li>
           </ul>
         </Container>
       </nav>
